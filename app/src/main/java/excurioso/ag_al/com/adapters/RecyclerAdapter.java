@@ -47,7 +47,10 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerViewHolder holder, int position) {
+
         Items currentItem = itemsList.get(position);
+
+
         Picasso.get()
                 .load(currentItem.getImagemURL())
                 .into(holder.img);

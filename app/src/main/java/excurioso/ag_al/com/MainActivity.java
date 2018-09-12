@@ -24,8 +24,6 @@ import excurioso.ag_al.com.models.Items;
 
 public class MainActivity extends AppCompatActivity implements RecyclerAdapter.ItemClickListener {
     RecyclerView recyclerView;
-    private final FirebaseDatabase database = FirebaseDatabase.getInstance();
-    private static final String TAG = "MyActivity";
 
     private RecyclerAdapter adapter;
 
